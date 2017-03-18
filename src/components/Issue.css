@@ -1,0 +1,34 @@
+.Issue {
+    display: flex;
+    border: 1px solid red;
+}
+
+.Issue__icon {
+}
+
+.Issue__body {
+    flex: 1;
+}
+
+.Issue__assignees {
+}
+
+.Issue__comments {
+}
+
+
+.Issue__progress {
+    display: inline-block;
+    width: 80px;
+    height: 5px;
+    vertical-align: 2px;
+    background-color: #eee;
+    overflow: hidden;
+    border-radius: 3px;
+}
+
+.Issue__progress__fill {
+    background-color: #ccc;
+    display: block;
+    height: 100%;
+}
